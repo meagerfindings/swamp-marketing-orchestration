@@ -1,0 +1,9 @@
+{
+  "nodeModulesDir": "auto",
+  "fmt": { "lineWidth": 80 },
+  "lint": { "rules": { "exclude": ["no-import-prefix"] } },
+  "tasks": {
+    "check": "deno check extensions/models/marketing_orchestration.ts extensions/reports/marketing_content_calendar.ts",
+    "test": "deno test extensions/models/marketing_orchestration_test.ts extensions/reports/marketing_content_calendar_test.ts"
+  }
+}
